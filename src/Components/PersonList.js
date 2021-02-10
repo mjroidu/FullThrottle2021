@@ -3,9 +3,6 @@ import axios from 'axios';
 import './PersonList.css';
 import { Row, Col } from 'react-bootstrap';
 import DatePicker from "react-datepicker";
-// import moment from 'moment';
-//import Moment from 'react-moment';
-//import 'moment-timezone';
 import "react-datepicker/dist/react-datepicker.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import RecordList from './RecordList';
@@ -75,29 +72,21 @@ export default class PersonList extends React.Component {
           //console.log("NewDate",NewDate)
   
           const NewDateString = NewDate.getDate() + "-" + (NewDate.getMonth()+1) + "-" + NewDate.getFullYear()
-  
-          //console.log("NewDateString",NewDateString)
-  
-          // console.log("isMatchFound", ConvertingDateToString)
-          // console.log("NewDateString", NewDateString)
+
           if(ConvertingDateToString === NewDateString){
   
             console.log("Its mached!")
             // this.state.FinalCalenderData
            
             temArry.push(d)
-            //this.state.FinalCalenderData.push(d)
-            // this.setState({
-            //   FinalCalenderData: temArry
-            // })
-            console.log("temArry!", this.state.FinalCalenderData)
-            console.log("Its mached!")
-            console.log("isMatchFound", this.state.isMatchFound)
+            // console.log("temArry!", this.state.FinalCalenderData)
+            // console.log("Its mached!")
+            // console.log("isMatchFound", this.state.isMatchFound)
           }
   
           else{
   
-            console.log("Its not maching!!!")
+            //console.log("Its not maching!!!")
           }
       
         })

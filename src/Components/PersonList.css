@@ -15,7 +15,6 @@
 .paddingVertical {
     padding: 10px 0;
     }
-
     .h4, h4 {
         color: #7c795d; font-family: 'Trocchi', serif; font-weight: normal; margin: 0;padding-left: 12px; 
       }
@@ -23,9 +22,6 @@
       .h6, h6 {
         color: #7c795d; font-family: 'Trocchi', serif; font-weight: normal; margin: 0;padding-left: 12px; 
       }
-
-
-
 
 .VerticalLine {
     border-left: 6px solid #A9A9A9;
@@ -40,10 +36,3 @@
 .gap{
     padding-left: 2%;
 }
-
-
-
-/* .leftPanel p{
-    font-size: 18px;
-    line-height: 20px;
-} */
